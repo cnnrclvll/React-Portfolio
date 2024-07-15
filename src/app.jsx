@@ -1,22 +1,25 @@
 import { Theme } from '@radix-ui/themes';
-import { useLocation } from "react-router-dom";
+import Header from './components/header';
+import Footer from './components/footer';
+import Current from './components/current';
+import './App.css';
+// import { useLocation } from "react-router-dom";
 
 function App() {
-  const currentPage = useLocation().pathname;
+  // const location = useLocation();
 
   return (
-    <Theme accentColor="crimson" grayColor="sand" radius="large" scaling="95%">
-        <div>
-        <Header>
-            <Nav currentPage={currentPage} />
-        </Header>
-        <main>
-            <Page currentPage={currentPage} />
-        </main>
+
+    <Theme accentColor="mint" grayColor="gray" panelBackground="solid" scaling="100%" radius="full">
+      <div>
+        <Header />
+      <main>
+        <Current location={location} />
+      </main>
         <Footer />
-        </div>
+      </div>
     </Theme>
-  );
+  )
 }
 
-export default App;
+export default App
