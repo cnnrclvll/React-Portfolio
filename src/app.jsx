@@ -7,17 +7,20 @@ const App = () => {
   return (
       <div className="App">
 
-        <header>
-          <h1>CMC</h1>
-        </header>
+        <div className="top-grp">
+          <header>
+            <h1>Connor Colvill</h1>
+          </header>
 
 
           <main>
             <Nav />
           </main>
+        </div>
 
-
-        <Footer />
+          <footer>
+            <Footer />
+          </footer>
       </div>
   );
 };
