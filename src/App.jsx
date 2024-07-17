@@ -1,6 +1,6 @@
-import Nav from './Nav';
-import Footer from './Footer';
-import '../App.css';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import './App.css';
 
 const App = () => {
   return (
