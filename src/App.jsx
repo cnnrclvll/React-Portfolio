@@ -1,5 +1,5 @@
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import Nav from './components/Nav/Nav.jsx';
+import Footer from './components/Footer/Footer.jsx';
 import './App.css';
 
 const App = () => {

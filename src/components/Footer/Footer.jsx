@@ -1,6 +1,6 @@
-import github from '../assets/icons/github/github-mark/github-mark-white.svg'
-import indeed from '../assets/icons/indeed/Indeed_2023_Logo_Icon_Favicon/Icon/SVG/Indeed_2021_Icon_RGB_White.svg'
-import stack from '../assets/icons/stack/logo-stackoverflow.svg'
+import github from '../../assets/icons/github/github-mark/github-mark-white.svg'
+import indeed from '../../assets/icons/indeed/Indeed_2023_Logo_Icon_Favicon/Icon/SVG/Indeed_2021_Icon_RGB_White.svg'
+import stack from '../../assets/icons/stack/logo-stackoverflow.svg'
 
 const Footer = () => {
   return (
