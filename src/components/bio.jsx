@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from '@mui/material/Container';
 import portrait from '../assets/seq.png';
 
 const Bio = () => {
