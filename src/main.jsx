@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App from './components/App';
+import App from './components/App.jsx';
 import Bio from './components/Bio';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
