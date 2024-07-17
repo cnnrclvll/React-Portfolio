@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import Bio from './Bio';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import Bio from '../Bio/Bio.jsx';
+import Portfolio from '../Portfolio/Portfolio.jsx';
+import Contact from '../Contact/Contact.jsx';
+import Resume from '../Resume/Resume.jsx';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;

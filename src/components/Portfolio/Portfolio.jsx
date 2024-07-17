@@ -3,14 +3,14 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import visualizer from '../assets/images/visualizerThumb.png';
-import board from '../assets/images/boardThumb.png';
-import PWA from '../assets/images/PWAThumb.png';
-import employee from '../assets/images/employeeThumb.png';
-import readme from '../assets/images/readmeThumb.png';
-import SMN from '../assets/images/SMNThumb.png';
-import SVG from '../assets/images/SVGThumb.png';
-import checkrd from '../assets/images/checkrdThumb.png';
+import visualizer from '../../assets/images/visualizerThumb.png';
+import board from '../../assets/images/boardThumb.png';
+import PWA from '../../assets/images/PWAThumb.png';
+import employee from '../../assets/images/employeeThumb.png';
+import readme from '../../assets/images/readmeThumb.png';
+import SMN from '../../assets/images/SMNThumb.png';
+import SVG from '../../assets/images/SVGThumb.png';
+import checkrd from '../../assets/images/checkrdThumb.png';
 
 export default function Portfolio () {
   const projects = [

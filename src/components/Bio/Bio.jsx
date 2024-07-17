@@ -1,4 +1,4 @@
-import portrait from '../assets/seq.png';
+import portrait from '../../assets/seq.png';
 
 const Bio = () => {
   return (
