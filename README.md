@@ -1,8 +1,13 @@
-# React + Vite
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Connor Colvill Portfolio
 
-Currently, two official plugins are available:
+Thank you for visiting my portfolio! Please check out my most recent applications, grab my CV from the CV page, and leave a message!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Questions
+If you have any questions, feel free to reach out:
+
+- GitHub: [cnnrclvll](https://github.com/cnnrclvll)
+- Email: <a href="mailto:cnnrclvll@gmail.com">cnnrclvll@gmail.com</a>
+
+![image](https://github.com/user-attachments/assets/4ad20381-d779-43a9-9672-0ba335b2119f)
