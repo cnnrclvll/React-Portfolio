@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Syncopate-R';
+  src: url('./assets/fonts/Syncopate-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Syncopate-B';
+  src: url('./assets/fonts/Syncopate-Bold.ttf') format('opentype');
+}
+
+* {
+  text-decoration: none;
+
+}
+
+html {
+  background-color: black;
+  height: 100%;
+}
+
+header, footer {
+  font-family: 'Syncopate-B';
+}
+
+.App {
+  font-family: 'Syncopate-R';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#root {
+  text-align: center;
+}
+
+/* Add your styles here */
+
+header {
+  background: #1d1d1d;
+  color: #ACACAC;
+  padding: 1rem;
+}
+
+.navvy label {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+footer {
+  background: #1d1d1d;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 95vw;
+}
+
+.github {
+  width: 80%;
+}
+
+.indeed {
+  width: 300%;
+}
+
+.indeed-a {
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.stack {
+  width: 80%;
+  height: 100%;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.portfolio a {
+  text-align: center;
+  opacity: 85%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bio img {
+  width: 95vw;
+  opacity: 75%;
+}
+
+.bio p {
+  font-family: 'Syncopate-B';
+  color: #ACACAC;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: auto;
+}
+
+.contact-form input, textarea {
+  font-family: 'Syncopate-R';
+}
+
+.contact-form label {
+  color: #ACACAC;
+  font-family: 'Syncopate-B';
+}
